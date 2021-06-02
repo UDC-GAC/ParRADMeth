@@ -7,11 +7,11 @@ Prerequisites
 Before starting the installation, please confirm that the following software is available
 in your system. Particular versions using during development are shown.
 
- - **GCC** v.8.3.0
- - **GSL** v.2.6
- - **make** v.3.82
+ - **GCC** v8.3.0
+ - **GSL** v2.6
+ - **make** v3.82
  - **MPI** compiler with support for OpenMP:
-     - **OpenMPI** v.3.1.4
+     - **OpenMPI** v3.1.4
  - **Git** (Optional)
 
 Different versions of the software may work but they have not been tested.
