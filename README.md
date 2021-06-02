@@ -39,7 +39,7 @@ when ```numProcs``` is the number of MPI processes to execute, and ```options```
 
  - **-h** (Optional). Print usage and exit.
  - **-v** (Optional). Verbose, print more run info.
- - **-factor** (Compulsory). The factor to test.
+ - **-factor <f>** (Compulsory). The factor to test.
  - **-o** (Optional). Output option.
  - **design_matrix** (Compulsory). Path to the file containing the design matrix.
  - **proportion_table** (Compulsory). Path to the file containing the proportion table.
