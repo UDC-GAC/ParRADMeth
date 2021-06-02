@@ -7,12 +7,12 @@ Prerequisites
 Before starting the installation, please confirm that the following software is available
 in your system. Particular versions using during development are shown.
 
- - GCC v.8.3.0
- - GSL v.2.6
- - make v.3.82
- - MPI compiler with support for OpenMP:
-     - OpenMPI v.3.1.4
- - Git (Optional)
+ - **GCC** v.8.3.0
+ - **GSL** v.2.6
+ - **make** v.3.82
+ - **MPI** compiler with support for OpenMP:
+     - **OpenMPI** v.3.1.4
+ - **Git** (Optional)
 
 Different versions of the software may work but they have not been tested.
 
@@ -38,8 +38,8 @@ mpiexec -n <numProcs> ./bin/ParRADMeth regression <options> <design_matrix> <pro
 when ```numProcs``` is the number of MPI processes to execute, and ```options``` is a list of the following arguments:
 
  - **-h** (Optional). Print usage and exit.
- - **-v** (Optional). Verbose, print more run info.
- - **-factor <f>** (Compulsory). The factor to test.
+ - **-v** (Optional). Verbose, print more run information.
+ - **-factor \<f\>** (Compulsory). The factor to test.
  - **-o** (Optional). Output option.
  - **design_matrix** (Compulsory). Path to the file containing the design matrix.
  - **proportion_table** (Compulsory). Path to the file containing the proportion table.
